@@ -1,0 +1,59 @@
+/* Contenedor del filtro de experiencias */
+.filtro-experiencias {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 25px auto; /* Centrado con margen */
+    padding: 25px; /* Padding interno */
+    background-color: #6A0DAD; /* Color púrpura oscuro */
+    color: #FFFFFF; /* Texto en blanco */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Título del filtro */
+  .filtro-experiencias h2 {
+    font-size: 2.4rem; /* Tamaño de letra */
+    color: #FAF3E0; /* Blanco roto */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 25px; /* Margen inferior */
+  }
+  
+  /* Estilo de las etiquetas */
+  .filtro-experiencias label {
+    font-size: 1.2rem; /* Tamaño de letra */
+    margin-bottom: 7px; /* Margen inferior */
+    display: block; /* Etiquetas en su propia línea */
+  }
+  
+  /* Estilo de los selectores */
+  .selector-usuario {
+    padding: 10px; /* Padding interno */
+    border: 1px solid #4C0000; /* Borde rojo oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+    margin-bottom: 20px; /* Margen inferior */
+    box-sizing: border-box; /* Incluir padding y borde dentro del ancho */
+  }
+  
+  /* Lista de resultados */
+  .filtro-experiencias ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin-top: 20px; /* Margen superior */
+  }
+  
+  /* Ítems de la lista */
+  .filtro-experiencias li {
+    background-color: #4C0080; /* Púrpura oscuro */
+    margin-bottom: 12px; /* Margen inferior */
+    padding: 12px; /* Padding interno */
+    border: 1px solid #FFFFFF; /* Borde blanco */
+    border-radius: 6px; /* Bordes redondeados */
+    color: #FFFFFF; /* Texto en blanco */
+  }
+  
+  /* Mensaje de error */
+  .mensaje-error {
+    color: red; /* Color rojo */
+    margin-bottom: 15px; /* Margen inferior */
+  }
+  
